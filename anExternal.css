@@ -1,0 +1,43 @@
+#front-first {
+  font-size: 30px;
+}
+
+#front-second {
+  font-size: 50px;
+}
+
+#display-img {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#display-img > img {
+  margin: 20px;
+  height: 50px;
+  width: 50px;
+  float: center;
+}
+
+#boarder-style {
+  border-radius: 20px;
+  border-style: dotted;
+}
+
+#center {
+  color: aliceblue;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#container {
+  position: relative;
+  text-align: center;
+}
+
+#float-part {
+  font-size: 70px;
+  float: right;
+}
